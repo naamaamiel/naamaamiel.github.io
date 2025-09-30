@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lexend+Deca:wght@100..900&display=swap');
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
@@ -115,9 +115,13 @@ input, select, textarea {
 
 /* Type */
 
+	#header .logo {
+		font-family: "Inconsolata";
+	}
+
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Courier New";
+		font-family: "Lexend Deca";
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
