@@ -3478,10 +3478,15 @@ input, select, textarea {
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.8em;
+					font-size: 1em;
 					font-weight: 600;
-					letter-spacing: 0.25em;
+					/* letter-spacing: 0.25em; */
 					/* text-transform: uppercase; */
+				}
+
+				#banner > .inner .subcontent p {
+					font-size: 1;
+					font-style: italic;
 				}
 
 		#banner.major {
